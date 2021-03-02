@@ -1,5 +1,4 @@
 {
-    "python.pythonPath": "/home/dato/.local/share/virtualenvs/apista-N8qPECsz/bin/python",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true

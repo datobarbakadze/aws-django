@@ -11,6 +11,13 @@ static
 </head>
 <body>
     <h2>I am here</h2>
+    
+    {% if recipes %}
+        {% for item in recipes %}
+            <h5>{{ item }}</h5>
+        {% endfor %}
+    {% endif %}
+        
     <h5>{{ insert_me}}</h5>
     <br>
     <a href="detail/">details</a><br> 
